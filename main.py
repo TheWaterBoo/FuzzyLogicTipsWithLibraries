@@ -100,9 +100,9 @@ elif propina_calculada == 5:
     print("La propina fue poca")
 elif propina_calculada >= 5.1 and propina_calculada <= 9.9:
     print("La propina esta entre poca y una normal")
-elif propina_calculada == 10:
-    print("Se recibio una propina normal")
 elif propina_calculada >= 10.1 and propina_calculada <= 19.9:
     print("la propina esta entre una normal y una generosa")
 elif propina_calculada == 20:
     print("Que generosa propina :D")
+elif propina_calculada >= 10:
+    print("Se recibio una propina normal")
